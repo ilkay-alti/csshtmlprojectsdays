@@ -1,4 +1,4 @@
-# 50 Projects in 50 Days - HTML/CSS and JavaScript
+#HTML/CSS
 
 
 |  #  | Project                                                                                                                     | Live Demo                                                                         |
