@@ -6,7 +6,7 @@
 | 01  | [Sign Up Form]               | [Click](https://ilkay-alti.github.io/csshtmlprojectsdays/day-1/)
 | 02  | [Sign Up With Social Media ]             |[ Click](https://ilkay-alti.github.io/csshtmlprojectsdays/day-2/)  
 | 03 | [Feedback Form]             |[ Click](https://ilkay-alti.github.io/csshtmlprojectsdays/day-3/)  
-| 04| [Feedback Form]             |[ Click](https://ilkay-alti.github.io/csshtmlprojectsdays/day-4/)  
+| 04| [Filter Modal]             |[ Click](https://ilkay-alti.github.io/csshtmlprojectsdays/day-4/)  
 
 
 **NOTE ON PULL REQUESTS**: All of these projects are part of the course. While I do appreciate people trying to make some things prettier or adding new features, we are only accepting pull requests and looking at issues for bug fixes so that the code stays inline with the course
