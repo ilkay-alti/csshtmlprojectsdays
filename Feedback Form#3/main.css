@@ -1,0 +1,263 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Poppins:wght@400;500;700&display=swap");
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+sub,
+sup,
+tt,
+var,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+input,
+select,
+textarea,
+button,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+a {
+  text-decoration: none;
+}
+a img,
+:link img,
+:visited img {
+  border: 0;
+}
+
+:focus {
+  outline: 0;
+}
+.clear {
+  clear: both;
+}
+*,
+*::before,
+*::after {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: gray;
+  display: flex;
+  box-sizing: border-box;
+}
+.container {
+  width: 666px;
+  height: 716px;
+  padding: 75px;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+h1 {
+  font-family: "Merriweather", serif;
+  font-weight: bold;
+  font-size: 22px;
+  margin-bottom: 16px;
+}
+p {
+  font-weight: medium;
+  width: 421px;
+}
+.radio-buttons {
+  display: flex;
+  margin-top: 31px;
+  margin-bottom: 31px;
+}
+
+.custom-radio input {
+  display: none;
+}
+
+.radio-btn {
+  margin-right: 8px;
+  width: 96.84px;
+  height: 105px;
+  display: inline-block;
+  cursor: pointer;
+  border: 3px solid #e5edff;
+  text-align: center;
+}
+
+.radio-btn .hobbies-icon img {
+  width: 44px;
+  height: 44px;
+  margin: 15px 26px 10px;
+}
+
+.radio-btn .hobbies-icon h3 {
+  color: #60699a;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: 39;
+}
+
+.custom-radio input:checked + .radio-btn {
+  box-shadow: 0 0 5px #ff71a4;
+}
+.custom-radio input:checked + .radio-btn h3 {
+  color: #121c51;
+}
+.custom-radio input:checked + .radio-btn img {
+  filter: brightness(0) saturate(100%) invert(6%) sepia(66%) saturate(4182%)
+    hue-rotate(231deg) brightness(99%) contrast(95%);
+}
+img {
+  filter: brightness(0) saturate(100%) invert(40%) sepia(50%) saturate(409%)
+    hue-rotate(193deg) brightness(89%) contrast(83%);
+}
+
+h2 {
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+textarea {
+  width: 516px;
+  height: 82px;
+  margin-top: 8px;
+  margin-bottom: 31px;
+  border-radius: 5px;
+  border: 3px solid #a3b8e8;
+}
+.alt {
+  display: flex;
+  margin-top: 16px;
+}
+.alt h2 {
+  margin-top: 3px;
+}
+input[type="checkbox"] {
+  height: 21px;
+  width: 21px;
+  margin-right: 10px;
+}
+
+button {
+  width: 115px;
+  height: 57px;
+  border-radius: 5px;
+  margin-top: 50px;
+  cursor: pointer;
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+.buttons .submit {
+  background-color: #ff71a4;
+  color: white;
+
+  margin-left: 270px;
+  margin-right: 11px;
+}
+.buttons .cancel {
+  background-color: white;
+  color: black;
+}
